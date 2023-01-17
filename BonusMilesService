@@ -1,0 +1,20 @@
+public class BonusMilesService {
+
+  public int calculate(int cost)
+  
+  
+  
+  
+  
+        int ticketPrice = 200;
+        int milesPrice = 20;
+
+        int miles;
+        if (ticketPrice < 0) {
+            System.out.println("Неверно указана стоимость билета");
+        } else {
+            miles = ticketPrice / milesPrice;
+            System.out.println("Количество начисленных миль: " + miles);
+        }
+    }
+}
